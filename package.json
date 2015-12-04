@@ -1,0 +1,15 @@
+{
+  "name": "shakespeare",
+  "version": "0.0.0",
+  "description": "shakespeare.",
+  "main": "lib/index.js",
+  "scripts": {
+    "postinstall": "rust-bindings build"
+  },
+  "author": "Dave Herman <dherman@mozilla.com>",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "rust-bindings": "0.0.7"
+  }
+}

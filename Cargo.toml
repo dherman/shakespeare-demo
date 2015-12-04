@@ -1,0 +1,9 @@
+[package]
+name = "shakespeare"
+version = "0.0.0"
+authors = ["Dave Herman <dherman@mozilla.com>"]
+license = "MIT"
+
+[dependencies]
+nanny = { version = "0.0.9", path = "../nanny" }
+regex = "0.1.41"
